@@ -9,7 +9,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 #LIST_OF_ADMINS = [123456]
-LIST_OF_ADMINS = [66742596, 44434815]
+LIST_OF_ADMINS = []
 
 def start(bot, update):
     bot.send_message(update.message.chat_id, "Ciao a tutti, al momento mi occupo solo degli inviti a cena."+
