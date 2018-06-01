@@ -136,7 +136,7 @@ def writeJdata(data):
 
 def main():
     # Create Updater object and attach dispatcher to it
-    updater = Updater('564345247:AAEwta1VMCR4vP_Mp_H8y72X5CsjPvbYK5E')
+    updater = Updater('KEY')
     dp = updater.dispatcher
     # Add command handler to dispatcher
     start_handler = CommandHandler('start',start)
