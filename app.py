@@ -99,7 +99,7 @@ def invitati(bot, update):
         for p in data['inviti']:
             output = output +'<b>'+ p['nome']+'</b>:\n'
             for pr in p['presenti']:
-                output = output + pr +':\n'
+                output = output + pr +'\n'
         bot.send_message(update.message.chat_id, output, ParseMode.HTML)
     
     
